@@ -1,0 +1,106 @@
+main {
+    background: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.conteudo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.conteudo .informacoes {
+    width: 290px;
+    margin: 20px 60px;
+}
+
+.conteudo .informacoes h1 {
+    width: 290px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.conteudo .informacoes p {
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario .form {
+    width: 340px;
+    height: 378px;
+    color: #000000;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-text {
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.input-text.mensagem {
+    display: flex;
+    height: 100px;
+    padding-bottom: 70px;
+}
+
+.campo-obrigatorio {
+    color: #F52E2E;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: -215px;
+    display: flex;
+    opacity: 0;
+}
+
+.formulario .form p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -10.5rem;
+    margin-top: 5px;
+}
+
+button {
+    width: 298px;
+    height: 41.13px;
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #3CCC87;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.erro{
+    opacity: 1;
+}
+
+.campo-preenchido {
+    border: 2px solid green;
+}
+
+.n-preenchido {
+    border: 1px solid red;
+}
+
